@@ -323,6 +323,13 @@ namespace HslCommunication.Language
         public virtual string FujiSpbStatus0C => "密码不一致";
 
 
+        /***********************************************************************************
+         * 
+         *    Toyopuc PLC 相关
+         * 
+         ************************************************************************************/
+        public virtual string ToyopucPleaseReferToManulDocument => "请查看Toyopuc的通讯手册来查看报警的具体信息";
+
 #pragma warning restore CS1591 // 缺少对公共可见类型或成员的 XML 注释
     }
 }
