@@ -126,6 +126,8 @@
             this.button62 = new System.Windows.Forms.Button();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.button64 = new System.Windows.Forms.Button();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.button65 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -144,6 +146,7 @@
             this.groupBox15.SuspendLayout();
             this.groupBox16.SuspendLayout();
             this.groupBox17.SuspendLayout();
+            this.groupBox18.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -926,7 +929,7 @@
             this.授权ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1159, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1348, 25);
             this.menuStrip1.TabIndex = 26;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1244,12 +1247,36 @@
             this.button64.UseVisualStyleBackColor = true;
             this.button64.Click += new System.EventHandler(this.Button64_Click);
             // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.button65);
+            this.groupBox18.Location = new System.Drawing.Point(1159, 29);
+            this.groupBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox18.Size = new System.Drawing.Size(185, 187);
+            this.groupBox18.TabIndex = 34;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Toyopuc（丰田工机）";
+            // 
+            // button65
+            // 
+            this.button65.Location = new System.Drawing.Point(19, 24);
+            this.button65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(150, 32);
+            this.button65.TabIndex = 0;
+            this.button65.Text = "Toyopuc TCP";
+            this.button65.UseVisualStyleBackColor = true;
+            this.button65.Click += new System.EventHandler(this.button65_Click);
+            // 
             // FormLoad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1159, 700);
+            this.ClientSize = new System.Drawing.Size(1348, 700);
+            this.Controls.Add(this.groupBox18);
             this.Controls.Add(this.groupBox17);
             this.Controls.Add(this.groupBox16);
             this.Controls.Add(this.groupBox15);
@@ -1297,6 +1324,7 @@
             this.groupBox15.ResumeLayout(false);
             this.groupBox16.ResumeLayout(false);
             this.groupBox17.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1402,6 +1430,8 @@
         private System.Windows.Forms.Button button62;
         private System.Windows.Forms.GroupBox groupBox17;
         private System.Windows.Forms.Button button64;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.Button button65;
     }
 }
 
