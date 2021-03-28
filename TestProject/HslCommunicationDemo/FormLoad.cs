@@ -728,7 +728,7 @@ namespace HslCommunicationDemo
 
         private void FormLoad_Shown( object sender, EventArgs e )
         {
-            System.Threading.ThreadPool.QueueUserWorkItem( new System.Threading.WaitCallback( ThreadPoolCheckVersion ), null );
+            //System.Threading.ThreadPool.QueueUserWorkItem( new System.Threading.WaitCallback( ThreadPoolCheckVersion ), null );
         }
 
         private void ThreadPoolCheckVersion( object obj )
